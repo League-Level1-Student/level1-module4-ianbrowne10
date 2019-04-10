@@ -93,7 +93,7 @@ frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// 11. Add a key listener to the frame
 frame.addKeyListener(this);
 		// 12. Create a new instance of Random
-
+Random random = new Random();
 		// 13. Use the Random and the speak method to either say
 		// "Simon says press this key" or "Press this key"
 
